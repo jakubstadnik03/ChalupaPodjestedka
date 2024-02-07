@@ -143,4 +143,9 @@ h1{
 .amenities-section div {
   padding: 10px !important;
 }
+    h1{
+    font-size: 3em;
+    margin-top: 2em;
+
+  }
 }
