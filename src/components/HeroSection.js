@@ -5,7 +5,7 @@ const HeroSection = () => {
     <div className="hero-section">
       <div className="text-box">
         <div className="tex-box-wrapper max-width p-2" >
-          <h1>Chalupa Podještědka</h1>
+          <h1 style={{marginTop: "0"}}>Chalupa Podještědka</h1>
           <p>
           Naše chalupa je 200let stará, ale po rekonstrukci stylově a romanticky sladěná
             ve venkovském stylu s kachlovými kamny a saunou. Nejvíce lidé
