@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <div className="hero-section">
       <div className="text-box">
-        <div className="tex-box-wrapper max-width">
+        <div className="tex-box-wrapper max-width p-2" >
           <h1>Chalupa Podještědka</h1>
           <p>
           Naše chalupa je 200let stará, ale po rekonstrukci stylově a romanticky sladěná

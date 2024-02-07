@@ -88,6 +88,10 @@
   background-color: rgb(29, 29, 29);
   color: #FAFAFA;
 }
+.nav-link.button-main:hover::after {
+  background-color: none !important;
+
+}
 .bg-white{
   background-color: #FAFAFA !important;
 }

@@ -39,7 +39,7 @@ h1{
 .amenities-section .amenity {
   display: flex !important;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
   padding: 10px;
 }
 .amenities-section .amenity p {
@@ -135,4 +135,12 @@ h1{
   .hero-section {
     margin-bottom: 30vh;
   }
+}
+@media (max-width: 460px){
+.hero-section {
+  margin-bottom: 17vh;
+}
+.amenities-section div {
+  padding: 10px !important;
+}
 }

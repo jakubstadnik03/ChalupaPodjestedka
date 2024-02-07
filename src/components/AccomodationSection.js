@@ -22,7 +22,7 @@ const AccommodationSection = () => {
       <Row>
         <Col lg={6}>
           <Card>
-            <Carousel interval={3000} keyboard={false} pauseOnHover={true}>
+            <Carousel interval={3000} keyboard={false} height="400px">
               <Carousel.Item>
                 <img
                   className="d-block w-100"

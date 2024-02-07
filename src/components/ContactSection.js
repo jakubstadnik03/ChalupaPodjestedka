@@ -41,6 +41,7 @@ const ContactSection = () => {
             <a
               style={{ marginLeft: "5px" }}
               target="_blank"
+              rel="noreferrer" 
               href="https://www.e-chalupy.cz/luzicke_hory/ubytovani-rozstani-chalupa-v-podjestedi-8474.php"
             >
               e-chalupy.cz
