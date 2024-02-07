@@ -57,7 +57,7 @@ const ReferencesPage = () => {
 
   return (
     <Container>
-      <h1 style={{ marginTop: "15vh", textAlign: "center" }}>Reference</h1>
+      <h1 className="marginTop" style={{  textAlign: "center" }}>Reference</h1>
       <Row xs={1} md={2} lg={3} className="g-4">
         {references.map((reference, index) => (
           <Col key={index}>

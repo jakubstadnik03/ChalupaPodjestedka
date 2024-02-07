@@ -54,11 +54,11 @@ const WhatsIncluded = () => {
         {/* Indoor Amenities */}
         <Col xs={12} sm={6} md={3} className="amenity">
           <FontAwesomeIcon icon={faFireAlt} />
-          <p>Vnitřní grill a pec na pizzu</p>
+          <p>gril</p>
         </Col>
         <Col xs={12} sm={6} md={3} className="amenity">
           <FontAwesomeIcon icon={faSeedling} />
-          <p>Vybavená zahradou a terasou</p>
+          <p>Zahrada a terasa</p>
         </Col>
         <Col xs={12} sm={6} md={3} className="amenity">
           <FontAwesomeIcon icon={faSwimmer} />
@@ -75,7 +75,7 @@ const WhatsIncluded = () => {
       <Row className="text-center py-3">
         <Col xs={12} sm={6} md={3} className="amenity">
           <FontAwesomeIcon icon={faFireAlt} />
-          <p>Vnitřní krb</p>
+          <p>Vnitřní pec a krb</p>
         </Col>
         <Col xs={12} sm={6} md={3} className="amenity">
           <FontAwesomeIcon icon={faCar} />

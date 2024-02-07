@@ -7,7 +7,7 @@ const HeroSection = () => {
         <div className="tex-box-wrapper max-width">
           <h1>Chalupa Podještědka</h1>
           <p>
-            Naše chalupa je nově zrekonstruovaná, stylově a romanticky sladěná
+          Naše chalupa je 200let stará, ale po rekonstrukci stylově a romanticky sladěná
             ve venkovském stylu s kachlovými kamny a saunou. Nejvíce lidé
             obdivují mysliveckou stodolu s vnitřním grilem, pecí a pípou se
             společenským posezením. Rádi Vás uvítáme v kraji Karolíny Světlé v

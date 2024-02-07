@@ -16,7 +16,7 @@ export const ImageGallery = () => {
   return (
     <>
       <NavbarComponent background={true} />
-      <h1 style={{ marginTop: "15vh", textAlign: "center" }}>
+      <h1 className="marginTop" style={{  textAlign: "center" }}>
         Fotogalerie chalupy Podještědka
       </h1>
       <PhotoGallery photos={photos} />

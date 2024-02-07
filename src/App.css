@@ -112,3 +112,27 @@ h1{
     font-size: 3em;
   }
 }
+@media (min-width: 1280px) {
+
+.hero-section {
+  margin-bottom: 28vh;
+}
+}
+@media (min-width: 1800px) {
+
+  .hero-section {
+    margin-bottom: 10vh;
+  }
+  }
+
+
+@media (min-width: 1280px) and (max-height: 768px) {
+  .hero-section {
+    margin-bottom: 45vh;
+  }
+}
+@media (min-width: 1280px) and (max-height: 1200) {
+  .hero-section {
+    margin-bottom: 30vh;
+  }
+}

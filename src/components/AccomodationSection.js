@@ -62,40 +62,27 @@ const AccommodationSection = () => {
             </Carousel>
             <Card.Body>
               <Card.Text>
-                Chalupa k pronajmutí poskytuje ubytování pro 2 až 15 osob v 5
-                ložnicích.
+              Chalupa umožňuje ubytování až pro 15osob. <br />
+Celý objekt je vytápěn tepelných čerpadlem, kromě stodoly.
               </Card.Text>
             </Card.Body>
             <ListGroup className="list-group-flush">
               <ListGroupItem>
-                Přízemí: Společenská místnost s televizí, hlavní kuchyně
-                nadstandardně vybavena...
+              Přízemí: Nadstandardně vybavená kuchyně, kávovar, pec s krbem, jídelna s posezením pro 15 osob, TV a křeslo, sauna s vanou a sprchou, WC
               </ListGroupItem>
               <ListGroupItem>
-                1 apartmán s plně vybavenou kuchyňkou (pro 2 osoby), dvoulůžko,
-                šatní skříň, TV...
+              Apartmán č.1 v přízemí: Dvojlůžko, kuchyňka, jídelní stůl, TV, koupelna-sprcha a WC
               </ListGroupItem>
               <ListGroupItem>
-                Apartmán č. 2 s kuchyňkou (pro 4 osoby), 2 dvoulůžka, šatní
-                skříň, psací stůl...
+              Apartmán č.2: 2x Dvojlůžko, kuchyňka, jídelní stůl, TV, koupelna-sprcha a WC
               </ListGroupItem>
               <ListGroupItem>
-                Apartmán č. 3 s podkrovním pokojem č. 4 (pro 2+5 osob),
-                manželská postel, 5 matrací...
+              Apartmán č.3 s podkrovím: manželská postel, koupelna-sprcha a WC + 5 zdravotních matrací v podkroví
               </ListGroupItem>
               <ListGroupItem>
-                Apartmán č. 5 (pro 2 osoby), manželská postel, komoda se
-                zrcadlem...
+              Apartmán č.4: : manželská postel, koupelna s WC, úložné prostory
               </ListGroupItem>
 
-              <ListGroupItem>
-                Sociální zařízení: Společné pro všechny - v přízemí je
-                samostatné WC, sprcha, sauna a dřevěná vana.
-              </ListGroupItem>
-              <ListGroupItem>
-                Vytápění: Celý objekt je vytápěn tepelným čerpadlem, kromě
-                stodoly...
-              </ListGroupItem>
             </ListGroup>
           </Card>
         </Col>
@@ -108,8 +95,7 @@ const AccommodationSection = () => {
           </p>
           <h3>Zábava a společenské vybavení</h3>
           <p>
-            Stodola je vybavena stoly, židlemi, lavicí pro více než 15 osob,
-            kuchyňským koutem...
+          Dále jsou ve stodole šipky, míč a fotbalový stůl. Uvnitř domu jsou společenské hry a hračky pro děti.
           </p>
           <h3> Sociální zařízení:</h3>
           <p>
@@ -120,13 +106,8 @@ const AccommodationSection = () => {
           </p>
           <h3>Venkovní posezení + stodola:</h3>
           <p>
-            Stodola, uzavřená společná místnost navazující na chalupu, nabízí
-            posezení a možnost grilování či rožnění, udírnu a také pec na
-            pizzu/chléb. Součástí je kuchyňská část s plynovým sporákem, dřezem,
-            lednicí a pípou na pivo či limonádu (možno zařídit sud za příplatek
-            po domluvě s majitelem). Jsou zde schody do podkroví, kde je galerie
-            s odpočinkovou místností. Stodola v zimních měsících není vytápěná,
-            pípa i voda jsou odpojené.
+          Před chalupou jsou lavičky k sezení. Před domem a za domem je menší dvorek s trávou. Je zde volný přístup na naši zahradu přes silnici.
+Stodola……
           </p>
           <h3>Stravování a okolí</h3>
           <p>

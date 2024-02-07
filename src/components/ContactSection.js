@@ -1,7 +1,31 @@
-import React from "react";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
 
 const ContactSection = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_yud6uku",
+        "template_3tfq6rp",
+        form.current,
+        "vOk1lRpgB82-cRXIH"
+      )
+      .then(
+        (result) => {
+          alert("Vaš dotaz byl úspěšně odeslán!");
+          document.location.href = "/";
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
   return (
     <Container className="contact-section my-5" id="kontakt">
       <Row>
@@ -25,20 +49,24 @@ const ContactSection = () => {
         </Col>
         <Col md={6}>
           <h2>Kontaktní formulář</h2>
-          <Form>
+          <Form ref={form} onSubmit={sendEmail}>
             <Form.Group controlId="formGroupName">
               <Form.Label>Jméno</Form.Label>
-              <Form.Control type="text" placeholder="Zadejte své jméno" />
+              <Form.Control type="text" name="user_name" placeholder="Zadejte své jméno" />
             </Form.Group>
             <Form.Group controlId="formGroupEmail">
               <Form.Label>Email</Form.Label>
-              <Form.Control type="email" placeholder="Zadejte svůj email" />
+              <Form.Control type="email" name="user_email" placeholder="Zadejte svůj email" />
+            </Form.Group>
+            <Form.Group controlId="formGroupPhone">
+              <Form.Label>Telefon</Form.Label>
+              <Form.Control type="phone" name="user_phone" placeholder="Zadejte svůj email" />
             </Form.Group>
             <Form.Group controlId="formGroupMessage">
               <Form.Label>Zpráva</Form.Label>
-              <Form.Control as="textarea" rows={3} />
+              <Form.Control as="textarea" name="message"rows={3} />
             </Form.Group>
-            <Button variant="primary" type="submit">
+            <Button variant="primary" type="submit" style={{marginTop: "10px"}}>
               Odeslat
             </Button>
           </Form>
