@@ -8,7 +8,7 @@ const Footer = () => {
       <Container>
         <div>
           <h3>
-            Chalupa Podještědka: Útulné Ubytování v Přírodě pod Ještědem
+            Chalupa Podještědka: Útulné ubytování v přírodě pod Ještědem
           </h3>
           <p>
             Příjemná chalupa s osobitým

@@ -36,6 +36,9 @@ const ContactSection = () => {
           <p>Telefon: +420 723 838 086</p>
           <p>Adresa: Rozstání 6, 463 43, Světlá pod Ještědem</p>
           <p>IČO: 03911446</p>
+          <p><a 
+              target="_blank"
+              rel="noreferrer" href="https://www.google.com/maps/place/Chalupa+Podještědka/@50.7052244,14.9744268,3a,87.1y,315.14h,51.5t/data=!3m7!1e1!3m5!1sAF1QipNlYL9WM4TyNLZi5OLk8J_AlWaaZOYnP3BPuuku!2e10!3e12!7i11000!8i5500!4m9!3m8!1s0x470949cdec6217dd:0xae5ddf1eb8f1742a!8m2!3d50.7052179!4d14.9744497!10e5!14m1!1BCgIgARICCAI!16s%2Fg%2F11j7kmsml8?entry=ttu">Vyrtuální prohlídka chalupy</a></p>
           <p>
             Pro více informací a obsazenost navštivte stránku:
             <a
